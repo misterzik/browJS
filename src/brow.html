@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+
+  <link rel="stylesheet" type="text/css" href="css/brow.css" />
+  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+  <script src="js/brow.js"></script>
+
+
+</head>
+
+<body>
+
+  <div id="myBrow" class="alert alert-danger myBrowFull">
+    <div id="BrowFull">
+      <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+    </div>
+  </div>
+
+</body>
+
+<script language="javascript">
+  $(window).ready(function() {
+    $('#myBrow').html($('#BrowFull').html() +
+    '<div class="row">' +
+    '<div class="col-sm-2 bTitle">Browser Name</div><div class="col-md-5">'+b1.bName+'</div></div>'+
+        '<div class="row">' +
+    '<div class="col-sm-2 bTitle">Full version</div><div class="col-md-5">'+b1.fullVersion+'</div></div>'+
+        '<div class="row">' +
+    '<div class="col-sm-2 bTitle">Major version</div><div class="col-md-5">'+b1.majorVersion+'</div></div>'+
+        '<div class="row">' +
+    '<div class="col-sm-2 bTitle">App Name</div><div class="col-md-5">'+navigator.appName+'</div></div>'+
+        '<div class="row">' +
+    '<div class="col-sm-2 bTitle">App User Agent</div><div class="col-md-5 agent">'+navigator.userAgent+'</div></div><br>');
+  });
+</script>
+
+</html>

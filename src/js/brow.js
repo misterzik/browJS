@@ -1,3 +1,6 @@
+function Brow() {
+//        The BROw's = The Browsers
+// ------------------------------------------//
 // Create Holders
 var bVer = navigator.appVersion;
 var bAgnt = navigator.userAgent;
@@ -8,7 +11,14 @@ var fullVersion = '' + parseFloat(navigator.appVersion);
 var majorVersion = parseInt(navigator.appVersion, 10);
 var nameOffset, verOffset, ix;
 
+//        The BROw's = The Browsers
+// ---------------------------------------------//
+// If/Else Statements to prove browser         //
+// identification while checking for          //
+// "Version" (navigator.appVersion == bVer)  //
+//==========================================//
 // In Opera, the true version is after "Opera" or after "Version"
+
 if ((verOffset = bAgnt.indexOf("Opera")) != -1) {
     bName = "Opera";
     fullVersion = bAgnt.substring(verOffset + 6);
@@ -52,6 +62,10 @@ else if ((nameOffset = bAgnt.lastIndexOf(' ') + 1) <
     }
 }
 
+//BROw's
+// ------------------------------------------//
+// Substring used to shortend up the output //
+//=========================================//
 // trim the fullVersion string at semicolon/space if present
 if ((ix = fullVersion.indexOf(";")) != -1)
     fullVersion = fullVersion.substring(0, ix);
@@ -64,12 +78,37 @@ if (isNaN(majorVersion)) {
     majorVersion = parseInt(navigator.appVersion, 10);
 }
 
-document.write('' +
-  '<div id="myBrow" class="' + bName + '">'+
+//BROw's
+// ------------------------------------------//
+// Substring used to shortend up the output //
+//=========================================//
+/*document.write('' +
+  '<div id="myBrow" class="alert alert-danger ' +  + '">'+
   '<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>'+
   '<small>You are currently using, ' + bName +
-  '. Please use Chrome or Firefox for better performance.</small></div><br>'
-)
+  ' as a browser. For more details <a href="brow.html">Click Here</a>.</small></div><br>'
+)*/
+
+
+
+$(document).ready(function() {
+//BROw's
+// -------------------------------------------//
+//        Activated Close Function.         //
+//=========================================//
+$(function() {
+    $('.close').click(function() {
+        $('#myBrow').remove();
+    });
+});
+
+});
+
+
+return {bName:bName, fullVersion:fullVersion, majorVersion:majorVersion}
+}
+
+var b1 = Brow();
 
 //--insanen.com
 //\/|!ster7_!k

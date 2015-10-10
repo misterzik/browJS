@@ -12,17 +12,6 @@
 
 Coming Soon
 
-## CDN
-Coming Soon
-
-#### Debug
-- [//cdnjs.cloudflare.com/ajax/libs/](//cdnjs.cloudflare.com/ajax/libs/)
-- [//cdnjs.cloudflare.com/ajax/libs/](//cdnjs.cloudflare.com/ajax/libs/)
-
-#### Minified
-- [//cdnjs.cloudflare.com/ajax/libs/](//cdnjs.cloudflare.com/ajax/libs/)
-- [//cdnjs.cloudflare.com/ajax/libs/](//cdnjs.cloudflare.com/ajax/libs/)
-
 # Installation
 
 #### [Bower](http://bower.io/search/?q=toastr)

@@ -1,6 +1,6 @@
 {
   "name": "BrowJS",
-  "version": "v0.0.2",
+  "version": "0.0.2",
   "authors": [
     "MisterZik <misterzik@insanen.com>"
   ],
@@ -10,9 +10,6 @@
     "src/css/brow.min.js"
   ],
   "dependencies": {
-    "jquery": "~1.11.3"
-  },
-  "devDependencies": {
     "jquery": "~1.11.3"
   },
   "keywords": [

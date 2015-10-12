@@ -1,5 +1,5 @@
 
-# [Bro\^/](//github.com/misterzik/brow)ser Recognition
+# [Bro\.\^/](//github.com/misterzik/brow)ser Recognition
 > **Old Fashion** browser recognition, with cool UI Alert, and Full details page with agent browser information.
 
 > File Size: (37 KB)
@@ -25,7 +25,7 @@ Coming Soon
 
 # Installation
 
-#### [Bower](http://bower.io/search/?q=toastr)
+#### [Bower](http://bower.io/search/?q=BrowJS)
 ```
 Coming Soon
 ```
@@ -42,6 +42,8 @@ git clone https://github.com/misterzik/brow.git
 1. Link to the stylesheet `<link href="css/brow.min.css" rel="stylesheet"/>`
 
 2. Link to the javascript `<script src="js/brow.min.js"></script>`
+
+4. Run bower on root folder, to download dependencies `bower install`
 
 3. Use brow container to display the message.
 ```html

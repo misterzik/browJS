@@ -1,0 +1,31 @@
+{
+  "name": "BrowJS",
+  "version": "0.0.2",
+  "authors": [
+    "MisterZik <misterzik@insanen.com>"
+  ],
+  "description": "Old Fashion browser recognition, with cool UI Alert, and Full details page with agent browser information.",
+  "main": [
+    "src/index.html",
+    "src/brow.html",
+    "src/js/brow.min.js",
+    "src/css/brow.min.js"
+  ],
+  "dependencies": {
+   "jquery": "~1.11.3"
+ },
+  "keywords": [
+    "browser",
+    "recognizition"
+  ],
+  "license": "MIT",
+  "homepage": "http://insanen.com/tools/",
+  "ignore": [
+    "**/.*",
+    "debug/*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

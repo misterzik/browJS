@@ -1,2 +1,5 @@
 src/js/wip_brow_modal.js
 *DS_Store
+*.DS_Store
+debug/*
+debug

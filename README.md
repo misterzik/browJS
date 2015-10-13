@@ -11,14 +11,14 @@
 
 Bro\^/
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/misterzik/browJS/master/browJS-Chrome.png)
 
 
 
 
 Bro\^/ Full Details
 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+![alt text](https://raw.githubusercontent.com/misterzik/browJS/master/browJS-Full-Chrome.png)
 
 
 # Installation

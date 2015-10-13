@@ -6,8 +6,8 @@
   ],
   "description": "Old Fashion browser recognition, with cool UI Alert, and Full details page with agent browser information.",
   "main": [
-    "src/js/brow.min.js",
-    "src/css/brow.min.js"
+    "brow.min.js",
+    "brow.min.css"
   ],
   "dependencies": {
     "jquery": "~1.11.3"

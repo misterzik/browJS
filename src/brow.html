@@ -1,14 +1,7 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-
-
   <link rel="stylesheet" type="text/css" href="css/brow.css" />
-  <script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
-  <script src="js/brow.js"></script>
-
-
 </head>
 
 <body>
@@ -21,19 +14,29 @@
 
 </body>
 
+<!--
+    Please, Make sure to run "bower install", in order to install jQuery
+    Dependency, Please replace src to a locally file, instead of cdn,
+    for faster site load.
+
+    Host to local librabrie ../../jquery/dist/jquery.min.js
+-->
+<script src="https://code.jquery.com/jquery-2.1.4.min.js"></script>
+<script src="js/brow.js"></script>
+
 <script language="javascript">
   $(window).ready(function() {
     $('#myBrow').html($('#BrowFull').html() +
-    '<div class="row">' +
-    '<div class="col-sm-2 bTitle">Browser Name</div><div class="col-md-5">'+b1.bName+'</div></div>'+
-        '<div class="row">' +
-    '<div class="col-sm-2 bTitle">Full version</div><div class="col-md-5">'+b1.fullVersion+'</div></div>'+
-        '<div class="row">' +
-    '<div class="col-sm-2 bTitle">Major version</div><div class="col-md-5">'+b1.majorVersion+'</div></div>'+
-        '<div class="row">' +
-    '<div class="col-sm-2 bTitle">App Name</div><div class="col-md-5">'+navigator.appName+'</div></div>'+
-        '<div class="row">' +
-    '<div class="col-sm-2 bTitle">App User Agent</div><div class="col-md-5 agent">'+navigator.userAgent+'</div></div><br>');
+      '<div class="row">' +
+      '<div class="col-sm-2 bTitle">Browser Name</div><div class="col-md-5">' + b1.bName + '</div></div>' +
+      '<div class="row">' +
+      '<div class="col-sm-2 bTitle">Full version</div><div class="col-md-5">' + b1.fullVersion + '</div></div>' +
+      '<div class="row">' +
+      '<div class="col-sm-2 bTitle">Major version</div><div class="col-md-5">' + b1.majorVersion + '</div></div>' +
+      '<div class="row">' +
+      '<div class="col-sm-2 bTitle">App Name</div><div class="col-md-5">' + navigator.appName + '</div></div>' +
+      '<div class="row">' +
+      '<div class="col-sm-2 bTitle">App User Agent</div><div class="col-md-5 agent">' + navigator.userAgent + '</div></div><br>');
   });
 </script>
 

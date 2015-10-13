@@ -1,8 +1,10 @@
 <!DOCTYPE html>
 <html>
+
 <head>
   <link rel="stylesheet" type="text/css" href="css/brow.min.css" />
 </head>
+
 <body>
   <div id="myBrow" class="alert alert-danger myBrow">
     <div id="Brow"></div>
@@ -11,14 +13,18 @@
 
 <!--
     Please, Make sure to run "bower install", in order to install jQuery
-    Dependency or change src to cdn: https://code.jquery.com/jquery-1.11.3.min.js
+    Dependency, Please replace src to a locally file, instead of cdn,
+    for faster site load.
+
+    Host to local librabrie ../../jquery/dist/jquery.min.js
 -->
 
-<script src="../jquery/dist/jquery.min.js"></script>
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
 <script src="js/brow.min.js"></script>
 <script language="javascript">
   $(window).ready(function() {
     $('#myBrow').html($('#Brow').html() + '<small>You are currently using, ' + b1.bName + ' as a browser. For more details <a href="brow.html">Click Here</a>.</small><a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>');
   });
 </script>
+
 </html>

@@ -1,28 +1,44 @@
 
-# [Bro\.\^/](//github.com/misterzik/brow)ser Recognition
+# [Br0\^/](//github.com/misterzik/brow)Ser Recognition
 > **Old Fashion** browser recognition, with cool UI Alert, and Full details page with agent browser information.
 
 > File Size: (37 KB)
 
 ## Version
-0.0.2
+0.0.3
 
 ## Demo
-- Demo can be found at:
 
-Coming Soon
+Bro\^/
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
+
+
+Bro\^/ Full Details
+
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
 
 # Installation
 
 #### [Bower](http://bower.io/search/?q=BrowJS)
 ```
-Coming Soon
+bower install browJS
 ```
 
-#### [Github](https://github.com/misterzik/brow/archive/master.zip)
+#### [NuGet](https://www.nuget.org/packages/browJS/)
 ```
-git clone https://github.com/misterzik/brow.git
+PM> Install-Package browJS
 ```
+
+#### [Github](https://github.com/misterzik/browJS/archive/master.zip)
+```
+git clone https://github.com/misterzik/browJS.git
+```
+
+
 
 ## Quick Start
 
